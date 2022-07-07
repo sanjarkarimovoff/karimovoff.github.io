@@ -1,0 +1,18 @@
+:root {
+    --white: #fff;
+    --basic: #11a192;
+    --basic-text: #0e2541;
+    --toggle-bg: url('../../images/svg/dark.svg');
+    --lang: url('../../images/png/usa.png')
+}
+
+:root[date-theme = 'dark'] {
+    --white: #222222;
+    --basic: #11a192;
+    --basic-text: #fff;
+    --toggle-bg: url('../../images/svg/light.svg');
+}
+
+:root[date-lang = 'lang'] {
+    --lang: url('../../images/png/rus.png')
+}
